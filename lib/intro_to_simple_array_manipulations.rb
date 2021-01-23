@@ -6,4 +6,14 @@ def using_insert(array, element)
 end
 def using_uniq(array)
   array.uniq
+enddef using_flatten(array)
+  array.flatten
+end
+
+def using_delete(array, element)
+  array.delete(element)
+end
+
+def using_delete_at(array, num)
+  array.delete_at(num)
 end
